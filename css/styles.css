@@ -1,0 +1,327 @@
+body {
+  font-family: 'Roboto', 'Raleway', sans-serif;
+  color: var(--primery-text-color);
+}
+
+:root {
+  --primery-text-color: #212121;
+  --activity-link-color: #2196F3;
+  --logo-studio-secondo-color: #000000;
+  --btn-activity-color: #FFFFFF;
+  --discription-color: #757575;
+  --hero-background: #2F303A;
+  --background-general: #F5F5F5;
+  --background-team: #F5F4FA;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  padding: 0px 15px;
+}
+
+/* ----------- HEADER --------------- */
+.header {
+  background-color: var(--btn-activity-color);
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav {
+  display: flex;
+  
+}
+
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.list-nav {
+  display: flex;
+  margin-left: 93px;
+}
+
+.nav-contact {
+  display: flex;
+}
+
+.header-contact {
+  display: flex;
+  margin-left: auto;
+}
+
+.nav-contact .item:not(:last-child) {
+  margin-right: 40px;
+
+}
+.header-logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--activity-link-color);
+  text-decoration: none;
+}
+
+.studio-header {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--logo-studio-secondo-color);
+}
+
+.header-link {
+  padding: 32px 0px;
+  display: block;
+  
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primery-text-color);
+  text-decoration: none;
+}
+
+.header-link:hover,
+.header-link:focus {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--activity-link-color);
+}
+
+.lists {
+  list-style: none;
+}
+
+.header-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--discription-color);
+  text-decoration: none;
+}
+
+.header-contact:hover,
+.header-contact:focus {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--activity-link-color);
+}
+
+.current {
+  color: var(--activity-link-color);
+}
+/* ----------- Шапка --------------- */
+.hero {
+  background: var(--hero-background);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: var(--btn-activity-color);
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--btn-activity-color);
+  background: var(--activity-link-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* ----------- Шапка --------------- */
+.quality {
+  background-color: var(--background-general);
+}
+
+.hidden-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.quality-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.quality-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--discription-color);
+}
+
+/* ----------- Особливості --------------- */
+.activity {
+  background-color: var(--background-general);
+}
+
+.activity-title {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+/* ----------- Особливості --------------- */
+.team {
+  background: var(--background-team)
+}
+
+.team-title {
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+/* ----------- Team --------------- */
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.team-post {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--discription-color);
+}
+
+.cards-team {
+  background-color: var(--btn-activity-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* ----------- FOOTER --------------- */
+.footer {
+  background: #2F303A;
+}
+.footer-logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--activity-link-color);
+  text-decoration: none;
+}
+
+.footer-studio {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--btn-activity-color);
+}
+
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--btn-activity-color);
+  text-decoration: none;
+  
+}
+
+.footer-contact {
+  font-style:normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.footer-contact:hover,
+.footer-contact:focus {
+  font-style: normal;
+  font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.02em;
+    color: var(--activity-link-color);
+}
+
+/* ----------- Портфоліо --------------- */
+.btn-filter {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primery-text-color);
+  background: var(--background-team);
+  border-radius: 4px;
+}
+
+.btn-filter:hover,
+.btn-filter:focus {
+  background: var(--activity-link-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--btn-activity-color);
+  cursor: pointer;
+}
+
+/* ----------- Portfolio list --------------- */
+.portfolio {
+  background-color: var(--background-general);
+}
+
+.project-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-discription {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--discription-color);
+}
+
+.cards-projects {
+  background: var(--btn-activity-color);
+  border: 1px solid #EEEEEE;
+}
