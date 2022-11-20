@@ -193,7 +193,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 .quality-discription {
-  max-width: calc((100%-90px) / 4);
+  max-width: calc((100% - 90px) / 4);
 }
 
 .quality-discription:not(:last-child) {
@@ -236,7 +236,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 .activity-item {
-  max-width: calc((100%-60px) / 3);
+  max-width: calc((100% - 60px) / 3);
 }
 
 .activity-item:not(:last-child) {
@@ -263,7 +263,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 .team-list {
-  width: calc((100%-90px) / 4);
+  width: calc((100% - 90px) / 4);
   padding-bottom: 94px;
 }
 
@@ -414,8 +414,8 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 .portfolio-item {
-  /* width: calc((100%-60px) / 3); */
-  width: 370px;
+  width: calc((100% - 60px) / 3);
+  /* width: 370px; */
 }
 
 .portfolio-item:not(:nth-child(3n)) {
