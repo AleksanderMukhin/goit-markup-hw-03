@@ -29,6 +29,11 @@ h1, h2, h3, h4, h5, h6, p, ul {
   margin: 0;
 }
 
+.global {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* ----------- HEADER --------------- */
 .header {
   background-color: var(--btn-activity-color);
@@ -170,9 +175,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 /* ----------- Особливості --------------- */
-.quality {
-  background-color: var(--background-general);
-}
 
 .hidden-title {
     position: absolute;
@@ -205,7 +207,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  padding-top: 94px;
+  /* padding-top: 94px; */
   margin-bottom: 10px;
 }
 
@@ -214,12 +216,17 @@ h1, h2, h3, h4, h5, h6, p, ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--discription-color);
-  padding-bottom: 94px;
+  /* padding-bottom: 94px; */
   }
 
 /* ----------- Особливості --------------- */
 .activity {
   background-color: var(--background-general);
+}
+
+.activity.global {
+  background-color: var(--background-general);
+  padding-top: 0px;
 }
 
 .activity-title {
@@ -241,7 +248,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .activity-item:not(:last-child) {
   margin-right: 30px;
-  padding-bottom: 94px;
+  /* padding-bottom: 94px; */
 }
 
 /* ----------- Особливості --------------- */
@@ -254,7 +261,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: center;
-    padding-top: 94px;
+    /* padding-top: 94px; */
     margin-bottom: 50px;
 }
 
@@ -264,7 +271,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .team-list {
   width: calc((100% - 90px) / 4);
-  padding-bottom: 94px;
+  /* padding-bottom: 94px; */
 }
 
 .team-list:not(:last-child) {
@@ -366,7 +373,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .filtr-list {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
+  /* padding-top: 94px; */
 }
 
 .btn-filter {
@@ -405,7 +412,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 /* ----------- Portfolio list --------------- */
 .portfolio {
   background-color: var(--background-general);
-  padding-bottom: 94px;
+  /* padding-bottom: 94px; */
 }
 
 .portfolio-list {
