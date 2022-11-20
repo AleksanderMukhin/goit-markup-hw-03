@@ -414,7 +414,8 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 .portfolio-item {
-  width: calc((100%-60px) / 3);
+  /* width: calc((100%-60px) / 3); */
+  width: 370px;
 }
 
 .portfolio-item:not(:nth-child(3n)) {
