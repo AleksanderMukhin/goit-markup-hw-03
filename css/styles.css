@@ -207,7 +207,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  /* padding-top: 94px; */
   margin-bottom: 10px;
 }
 
@@ -216,10 +215,9 @@ h1, h2, h3, h4, h5, h6, p, ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--discription-color);
-  /* padding-bottom: 94px; */
   }
 
-/* ----------- Особливості --------------- */
+/* ----------- Чим ми займаємося --------------- */
 .activity {
   background-color: var(--background-general);
 }
@@ -248,10 +246,9 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .activity-item:not(:last-child) {
   margin-right: 30px;
-  /* padding-bottom: 94px; */
 }
 
-/* ----------- Особливості --------------- */
+/* ----------- Наша команда --------------- */
 .team {
   background: var(--background-team)
 }
@@ -261,7 +258,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: center;
-    /* padding-top: 94px; */
     margin-bottom: 50px;
 }
 
@@ -271,14 +267,12 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .team-list {
   width: calc((100% - 90px) / 4);
-  /* padding-bottom: 94px; */
 }
 
 .team-list:not(:last-child) {
   margin-right: 30px;
 }
 
-/* ----------- Team --------------- */
 .team-member {
   font-weight: 500;
   font-size: 16px;
@@ -331,10 +325,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
   margin-top: 28px;
 }
 
-.footer-list:not(:last-child) {
-  
-}
-
 .address {
   font-style: normal;
   font-size: 14px;
@@ -373,7 +363,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .filtr-list {
   display: flex;
   justify-content: center;
-  /* padding-top: 94px; */
 }
 
 .btn-filter {
@@ -412,7 +401,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
 /* ----------- Portfolio list --------------- */
 .portfolio {
   background-color: var(--background-general);
-  /* padding-bottom: 94px; */
 }
 
 .portfolio-list {
@@ -422,7 +410,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .portfolio-item {
   width: calc((100% - 60px) / 3);
-  /* width: 370px; */
 }
 
 .portfolio-item:not(:nth-child(3n)) {
